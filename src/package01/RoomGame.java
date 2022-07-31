@@ -14,7 +14,7 @@ public class RoomGame {
     RandomEncounter monsterEncounter = new RandomEncounter();
 
     String nextPosition1, nextPosition2, nextPosition3, nextPosition4;
-    
+
 //
 
     public static void main(String[] args) {
@@ -55,19 +55,15 @@ public class RoomGame {
                 case "quit":
                     vm.showTitleScreen();
                 case "c1":
-//                    story.setLocation(nextPosition1);
                     story.selectPosition(nextPosition1);
                     break;
                 case "c2":
-//                    story.setLocation(nextPosition2);
                     story.selectPosition(nextPosition2);
                     break;
                 case "c3":
-//                    story.setLocation(nextPosition3);
                     story.selectPosition(nextPosition3);
                     break;
                 case "c4":
-//                    story.setLocation(nextPosition4);
                     story.selectPosition(nextPosition4);
                     break;
                 default:
